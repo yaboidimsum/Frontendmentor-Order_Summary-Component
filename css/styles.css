@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,700;1,500;1,700&family=Merriweather&family=Montserrat&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+body {
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+.hero {
+  width: 30em;
+  border-radius: 20px 20px 0px 0px;
+}
+.card {
+  position: relative;
+  background-color: white;
+  width: 30em;
+  height: 45em;
+  border-radius: 20px;
+  margin: 48px auto;
+  font-family: "Red Hat Display";
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 500;
+  width: 70%;
+  margin: 0 auto;
+  color: hsl(224, 23%, 55%);
+  line-height: 1.5em;
+}
+
+.container-change {
+  position: relative;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.container-description {
+  padding-right: 208px;
+  line-height: 18px;
+}
+
+.music-logo {
+  float: left;
+  margin-left: 6em;
+}
+
+.change-desc {
+  color: hsl(223, 47%, 23%);
+  font-size: 1em;
+  font-weight: 700;
+}
+.price {
+  color: hsl(224, 23%, 55%);
+  font-size: 1em;
+}
+
+.change {
+  font-size: 16px;
+  text-decoration: underline;
+  color: #5130cd;
+  position: absolute;
+  left: 22em;
+  top: 27.8em;
+}
+
+.button-order {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.button-cancel {
+  text-align: center;
+  margin-top: 40px;
+}
+.buttonClass-order {
+  font-size: 15px;
+  font-family: "Red Hat Display";
+  padding: 15px 110px;
+  width: 300px;
+  height: 50px;
+  border-width: 1px;
+  color: #fff;
+  border-color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  background: #5130cd;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonClass-order:hover {
+  font-size: 15px;
+  font-family: "Red Hat Display";
+  padding: 15px 110px;
+  width: 300px;
+  height: 50px;
+  border-width: 1px;
+  color: #5130cd;
+  border-color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonClass-cancel {
+  font-size: 15px;
+  font-family: "Red Hat Display";
+  padding: 15px 135px;
+  width: 300px;
+  height: 50px;
+  border-width: 1px;
+  color: hsl(224, 17%, 55%);
+  border-color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.buttonClass:hover {
+  background: #5cbf2a;
+}
